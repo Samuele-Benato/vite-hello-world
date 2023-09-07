@@ -1,9 +1,12 @@
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+export default {
+  components: { HelloWorld },
+};
 </script>
 
 <template>
-  <HelloWorld></HelloWorld>
+  <HelloWorld />
 </template>
 
 <style scoped></style>
